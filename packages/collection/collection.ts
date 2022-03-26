@@ -1,4 +1,4 @@
-import { Collection, isArrayLike, isIterable, IterationCallback } from './@types'
+import { Collection, isArrayLike, isIterable, IterationCallback } from '../../@types'
 
 const eachIterableCollection = <Value>(iterable: Iterable<Value>, iterationCallback: IterationCallback<Value>) => {
   let index = 0

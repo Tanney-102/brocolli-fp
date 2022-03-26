@@ -1,4 +1,4 @@
-import { Collection } from './@types'
+import { Collection } from '../../@types'
 import { each } from './collection'
 
 function* rangeIterableGenerator(length: number) {
