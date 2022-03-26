@@ -1,0 +1,14 @@
+{
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  },
+  "testRegex": "\\.test\\.ts$",
+  "moduleFileExtensions": ["ts",  "js", "json"],
+  "globals": {
+    "ts-jest": {
+      "diagnostics": true
+    }
+  },
+  "clearMocks": true,
+  "coverageProvider": "v8"
+}
